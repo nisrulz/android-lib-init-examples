@@ -13,18 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setupView()
+
+        // Add lifecycle observer
+        lifecycle.addObserver(myLib)
     }
 
     override fun onResume() {
         super.onResume()
         myLib.changeToken("456")
         txtView.text = myLib.getAuthHeader()
-    }
-
-    override fun onStart() {
-        super.onStart()
-        // Add lifecycle observer
-        lifecycle.addObserver(myLib)
     }
 
     override fun onDestroy() {

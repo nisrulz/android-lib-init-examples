@@ -10,7 +10,7 @@
             android:authorities="${applicationId}.androidx-startup"
             android:exported="false"
             tools:node="merge">
-            <!-- This entry makes MyLibInitializer discoverable. -->
+            <!-- This entry makes MyLibInitializer and its dependencies discoverable. -->
             <meta-data
                 android:name="github.nisrulz.example.mylibrary.MyLibInitializer"
                 android:value="androidx.startup" />
