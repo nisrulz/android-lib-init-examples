@@ -28,6 +28,15 @@
 - [Using ContentProvider To Init Lib](/UsingContentProviderToInitLib)
 - [Using AndroidX Startup](/UsingAndroidXStartup)
 
+## Questions
+- **Question: Is a ContentProvider's `onCreate()` called before the Application's `onCreate()` ?**
+  
+  Ans: Yes. 
+  
+  Example app: [Application Class Init Vs ContentProvider Init](/ApplicationClassInitVsContentProviderInit)
+
+  <img src="img/sc_1.png" width=480 />
+
 ## Contribution/Pull Requests
 I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request. Here are some basic rules to follow to ensure timely addition of your request:
   1. Match coding style (braces, spacing, etc.) This is best achieved using `Reformat Code` feature of Android Studio `CMD`+`Option`+`L` on Mac and `CTRL` + `ALT` + `L` on Linux + Windows .
