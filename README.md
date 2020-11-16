@@ -47,6 +47,9 @@ I welcome and encourage all pull requests. It usually will take me within 24-48 
       + Use the package name of the format `github.nisrulz.example.*` where `*` is the example you are adding to the repo. I am trying to follow a set standard in the repo, please adhere to that.
   7. Have fun!
 
+## Talk/Presentation
+- [Droidcon Americas 2020](https://crushingcode.nisrulz.com/talks/droidcon_americas_2020/)
+
 License
 =======
 
