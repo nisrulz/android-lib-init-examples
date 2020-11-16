@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="github.nisrulz.example.androidxstartup">
 
     <application
@@ -16,6 +17,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Uncomment to remove merged meta-data tag from MyLib, thus disabling its init
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data  android:name="github.nisrulz.example.mylibrary.MyLibInitializer"
+                android:value="androidx.startup"
+                tools:node="remove"/>
+        </provider>
+        -->
+
     </application>
 
 </manifest>
